@@ -5,28 +5,52 @@
 
 ## 官方 server
 
-### microsoft/playwright-mcp — 40,159 ★
+### microsoft/playwright-mcp — 40,160 ★
 微软官方浏览器自动化 MCP，让 agent 真实操作网页而不是"想象网页"。
 
 - 适用：抓取、表单填写、页面回归验证。
 - 链接：https://github.com/microsoft/playwright-mcp
 - 收录：2026-11-26
+- 更新：2026-11-26
 
-### awslabs/mcp — 9,957 ★
+### awslabs/mcp — 9,958 ★
 AWS 官方 MCP servers 集合，覆盖文档、成本、基础设施等。
 
 - 状态：持续更新（当日有提交）。
 - 链接：https://github.com/awslabs/mcp
 - 收录：2026-11-26
+- 更新：2026-11-26
+
+### ChromeDevTools/chrome-devtools-mcp — 59,420 ★
+Chrome DevTools 团队的官方 MCP：把 Performance 面板、网络请求、控制台、堆快照暴露给编码 agent。
+
+- 亮点：性能剖析和页面回归从"看截图猜"变成可读的 trace 与请求记录；调试真实浏览器而不是模拟环境。
+- 链接：https://github.com/ChromeDevTools/chrome-devtools-mcp
+- 收录：2026-11-26
+
+### github/github-mcp-server — 34,773 ★
+GitHub 官方 MCP server，仓库、Issue、PR、代码搜索全流程。
+
+- 亮点：官方维护，工具按 toolsets 分组，可开只读模式收紧权限；本仓库的每日写入即用它完成。
+- 链接：https://github.com/github/github-mcp-server
+- 收录：2026-11-26
+
+### modelcontextprotocol/python-sdk — 24,976 ★
+MCP 官方 Python SDK，写 server / client 的参考实现。
+
+- 亮点：`FastMCP` 装饰器直接定义工具，跟规范最快；自己写 server 先看这里再找第三方。
+- 链接：https://github.com/modelcontextprotocol/python-sdk
+- 收录：2026-11-26
 
 ## 垂直领域
 
-### mrexodia/ida-pro-mcp — 13,586 ★
+### mrexodia/ida-pro-mcp — 13,588 ★
 把 IDA Pro 接进大模型，逆向分析、二进制审计问答式完成。
 
 - 适用：安全研究、逆向工程。
 - 链接：https://github.com/mrexodia/ida-pro-mcp
 - 收录：2026-11-26
+- 更新：2026-11-26
 
 ### tadata-org/fastapi_mcp — 12,031 ★
 把 FastAPI 端点一键暴露为 MCP tools，自带鉴权。
