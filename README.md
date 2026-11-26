@@ -4,16 +4,16 @@
 
 每天 **06:30** 与 **18:30**（Asia/Shanghai）自动搜集一次，去重后增量追加到对应分类文件；无新增则不产生提交。
 
-最近更新：2026-11-26 18:30（Asia/Shanghai）
+最近更新：2026-11-27 06:33（Asia/Shanghai）
 
 ## 目录
 
 | 文件 | 内容 | 当前条目 |
 | --- | --- | --- |
-| [skills.md](skills.md) | Agent Skill 与插件仓库（官方 / 单点能力 / 候选） | 10 |
-| [mcp.md](mcp.md) | 官方与垂直领域 MCP server、调试评测工具 | 9 |
-| [image-prompts.md](image-prompts.md) | 生图提示词库与可复用模板 | 9 库 + 6 模板 |
-| [community.md](community.md) | 小红书、腾讯 SkillHub、国内社区工具 | 9 |
+| [skills.md](skills.md) | Agent Skill 与插件仓库（官方 / 单点能力 / 候选） | 13 |
+| [mcp.md](mcp.md) | 官方与垂直领域 MCP server、调试评测工具 | 13 |
+| [image-prompts.md](image-prompts.md) | 生图提示词库与可复用模板 | 11 库 + 7 模板 |
+| [community.md](community.md) | 小红书、腾讯 SkillHub、国内社区工具 | 11 |
 
 ## 条目格式
 
@@ -26,5 +26,6 @@
 
 ## 更新日志
 
+- 2026-11-27 06:30：新增 12 条（skills 3 / mcp 4 / prompts 3 / community 2），刷新 19 条 Star；mcp 其中 1 条为「例外：官方大发布」（Anthropic 于 2026-11-24 宣布 Skills over MCP 公测、Tasks/Elicitation 正式可用），其余新增来源：unslop、pixelfx、claude-animated-shorts、modelcontextprotocol/servers、context7、serena、freestylefly/awesome-gpt-image-2、ai-boost/awesome-image-video-prompts、xiaohongshu-mcp。
 - 2026-11-26 18:30：新增 12 条（skills 3 / mcp 3 / prompts 3 / community 3），刷新 9 条 Star，共 21 次写入；新增来源以官方仓库为主（hyperframes / open-code-review / chrome-devtools-mcp / github-mcp-server / python-sdk）。
 - 2026-11-26：仓库初始化，导入首批精选（skills 7 / mcp 6 / prompts 7+5 / community 6）；搜集任务定为每天 06:30 与 18:30。
