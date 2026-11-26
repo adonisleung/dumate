@@ -5,16 +5,31 @@
 
 ## 提示词库
 
-### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,872 ★
+### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,873 ★
 目前最大的 Nano Banana Pro 提示词库，1 万+ 条、16 种语言、带预览图，当日有提交。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
 - 收录：2026-11-26
+- 更新：2026-11-26
 
 ### YouMind-OpenLab/awesome-gpt-image-2 — 10,337 ★
 2000+ 条 GPT Image 2 提示词，每日更新，带预览与多语言版本。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-gpt-image-2
+- 收录：2026-11-26
+
+### ZeroLu/awesome-nanobanana-pro — 10,422 ★
+Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创意实验」等章节组织，每条附上原文 prompt 与出处。
+
+- 亮点：模板都是可直接套的完整句式，不是效果图堆砌；同一作者另有 Seedance 视频提示词库，图文一条线。
+- 链接：https://github.com/ZeroLu/awesome-nanobanana-pro
+- 收录：2026-11-26
+
+### TanShilongMario/PromptFill — 1,957 ★
+给 AI 绘图用的可视化「填空」提示词工作台：把长 prompt 拆成槽位，构建、管理、迭代。
+
+- 亮点：中文界面，适合把一次性灵感沉淀成可复用结构；支持 GPT / Midjourney / Nano Banana。
+- 链接：https://github.com/TanShilongMario/PromptFill
 - 收录：2026-11-26
 
 ### VigoZhao/AI-Visual-Prompt-Cookbook — 902 ★
@@ -84,7 +99,24 @@ GPT-4V 与 DALL·E 3 多模态提示词合集，偏能力演示与用法参考�
 
 ### 模板 5：杂志封面板式
 
-高级时尚封面：参考图定人 → 黑白人像 + 米白背景 → 低机位、下颌线清晰 → 超大衬线标题压住头顶 → 侧栏文字 + 发行日期 → 高分辨率竖版比例。
+高级时尚封面：参考图定人 → 黑白人像 + 米白背景 → 低机位、下颅线清晰 → 超大衬线标题压住头顶 → 侧栏文字 + 发行日期 → 高分辨率竖版比例。
 
 - 完整中文 prompt 见来源（awesome-gpt-image-2-prompts 中文镜像）。
 - 来源：https://github.com/liuxin2533/awesome-image-prompts
+
+### 模板 6：漂浮奢侈品产品图（Nano Banana Pro，填空式，原文可直用）
+
+> Product:
+> [BRAND] [PRODUCT NAME] - [bottle shape], [label description], [liquid color]
+>
+> Scene:
+> Luxury product shot floating on dark water with [flower type] in [colors] arranged around it.
+> [Lighting style - e.g., "golden hour glow" / "bright fresh light"] creates reflections and ripples across the water.
+>
+> Mood & Style:
+> [Adjectives - e.g., "ethereal and luxurious" / "fresh and clean"], high-end commercial photography, [camera angle], shallow depth of field with soft bokeh background
+
+- 适用模型：Nano Banana Pro（同结构也可用于 GPT Image 2 / Midjourney）。
+- 用法：三组方括号先填品牌 / 瓶型 / 液体色，再选光位与形容词；水面包围物换成花、冰块、水果就能跨品类复用（香水、酒、护肤品）。
+- 来源：ZeroLu/awesome-nanobanana-pro 第 1.17 节（原作者 AmirMušić，@AmirMushich 的 X 帖子）。
+- 收录：2026-11-26
