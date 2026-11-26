@@ -25,6 +25,20 @@
 - 链接：https://skillhub.cloud.tencent.com/skills/beatra-ai/hot-topic-content-maker
 - 收录：2026-11-26
 
+### 腾讯 CodeBuddy Code 2.0 · Skills 机制
+腾讯版 Claude Code 从 2.0 起支持 Skills：目录里放 SKILL.md（触发条件与步骤）、提示词模板、脚本，模型按描述自动 match 后执行。作者用它在终端跑通"主题 → 封面文案 → 调图像模型 → 重命名归档"的小红书封面链路。
+
+- 亮点：Skills 本身不绑模型通道，迁到自己的统一入口只需改 Base URL / Key / Model 三件套。
+- 来源：https://blog.csdn.net/weixin_42613017/article/details/171299914
+- 收录：2026-11-26
+
+### 腾讯云 WorkBuddy：技能、专家、专家团怎么配
+官方文档口径的梳理：技能 = 怎么做，专家 = 谁来做 / 按什么标准，专家团 = 谁分工怎么协作；结论是"先想任务、再去装、用哪个开哪个"。
+
+- 观察：一次装二三十个技能会变慢，同类技能互相试错，简单任务也绕远路；适合给团队定安装纪律。
+- 来源：https://cloud.tencent.com/developer/article/2792204
+- 收录：2026-11-26
+
 ## 小红书相关工具
 
 ### 红鸦 AI「小红书图文批量生成与发布」
@@ -43,4 +57,11 @@
 把个人生活经验做成可分享、可付费的 Agent，值得关注平台侧 Agent 形态。
 
 - 来源：https://www.woshipm.com/?p=6496381
+- 收录：2026-11-26
+
+### 小红书八类运营 Skill 清单（选题 → 分发）
+按八个环节拆分的开源 skill 清单：content-strategist（选题策略）、dbskill（标题体检 / AI 味检测）、xhs-writer-skill（卖点 → 正文 → 标签）、trending（热搜）、space-image-studio（一句话出封面，4 类 × 12 风格）、html-anything（转单文件 HTML 分发）、xhs-ai-workflow（全链路）。
+
+- 注意：清单只是索引，实际效果取决于内容判断与平台规则，工具不替代运营决策；同时段有创作者反馈无差别套模板、伪造体验容易被限流。
+- 来源：http://m.baoshan.sh-tyd.com/xxynews/202611/239_article67393.shtml
 - 收录：2026-11-26
