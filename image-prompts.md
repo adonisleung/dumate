@@ -1,22 +1,23 @@
 # 生图 Prompt：库与模板
 
 > 图像生成提示词库（Nano Banana Pro / GPT Image / Midjourney / Flux / Seedream 等）与可直接复用的模板。
-> 维护：每天 07:00 / 19:00 增量追加；Star 为采集当日数值（2026-11-26）。
+> 维护：每天 06:30 / 18:30 增量追加；Star 为采集当日数值（2026-11-27）。
 
 ## 提示词库
 
-### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,873 ★
+### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,879 ★
 目前最大的 Nano Banana Pro 提示词库，1 万+ 条、16 种语言、带预览图，当日有提交。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
 - 收录：2026-11-26
-- 更新：2026-11-26
+- 更新：2026-11-27
 
-### YouMind-OpenLab/awesome-gpt-image-2 — 10,337 ★
+### YouMind-OpenLab/awesome-gpt-image-2 — 10,339 ★
 2000+ 条 GPT Image 2 提示词，每日更新，带预览与多语言版本。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-gpt-image-2
 - 收录：2026-11-26
+- 更新：2026-11-27
 
 ### ZeroLu/awesome-nanobanana-pro — 10,422 ★
 Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创意实验」等章节组织，每条附上原文 prompt 与出处。
@@ -32,12 +33,13 @@ Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创�
 - 链接：https://github.com/TanShilongMario/PromptFill
 - 收录：2026-11-26
 
-### VigoZhao/AI-Visual-Prompt-Cookbook — 902 ★
+### VigoZhao/AI-Visual-Prompt-Cookbook — 908 ★
 把提示词做成 JSON 风格包，抄一份 style 即可保持整组图统一调性。
 
 - 适用：批量出系列图、电商套图。
 - 链接：https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook
 - 收录：2026-11-26
+- 更新：2026-11-27
 
 ### Jermic/awesome-aiart-pics-prompts — 628 ★
 3000+ Gemini Nano Banana Pro 提示词与生成案例，中英双语，覆盖摄影、设计、艺术、营销。
@@ -64,6 +66,20 @@ GPT-4V 与 DALL·E 3 多模态提示词合集，偏能力演示与用法参考�
 
 - 链接：https://github.com/junxiaopang/all-image-prompts
 - 收录：2026-11-26
+
+### freestylefly/awesome-gpt-image-2 — 36,163 ★
+Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20 多套工业级模板，每个案例附完整提示词与生成记录。
+
+- 亮点：完整 prompt 可一键复制，还有 2.5 同提示词对比专区（可拖动分割看差异）；另附 Claude Code skill 与插件市场入口，prompt 能被 agent 直接调用。
+- 链接：https://github.com/freestylefly/awesome-gpt-image-2
+- 收录：2026-11-27
+
+### ai-boost/awesome-image-video-prompts — 3,533 ★
+主流图像 / 视频模型的 copy-ready 提示词合集，每条都配真实生成结果。
+
+- 亮点：同一创意跨模型横向对照，适合选模型、定参数；11-24 仍有更新。
+- 链接：https://github.com/ai-boost/awesome-image-video-prompts
+- 收录：2026-11-27
 
 ## 可复用模板
 
@@ -120,3 +136,40 @@ GPT-4V 与 DALL·E 3 多模态提示词合集，偏能力演示与用法参考�
 - 用法：三组方括号先填品牌 / 瓶型 / 液体色，再选光位与形容词；水面包围物换成花、冰块、水果就能跨品类复用（香水、酒、护肤品）。
 - 来源：ZeroLu/awesome-nanobanana-pro 第 1.17 节（原作者 AmirMušić，@AmirMushich 的 X 帖子）。
 - 收录：2026-11-26
+
+### 模板 7：厚涂建筑地标艺术海报（GPT Image 2 / 2.5，4:5 竖版）
+
+> Create a sophisticated fine-art architectural painting of [STRUCTURE / LANDMARK], presented as a highly tactile, three-dimensional impasto oil painting on textured archival paper.
+>
+> Make [STRUCTURE / LANDMARK] the unmistakable central focal point, shown from a slightly low, frontal perspective so its architecture feels grand, monumental, elegant, and sculptural. Preserve the recognizable architectural features, proportions, silhouette, windows, columns, arches, roofline, ornamentation, materials, and distinctive details of the structure, but reinterpret the entire scene as a handcrafted contemporary oil painting.
+>
+> Use extremely thick palette-knife impasto with visible raised strokes, layered paint, broken edges, scraped textures, ridges, and expressive overlapping marks. The architecture should appear almost sculpted entirely from paint, with heavy cream, warm stone, soft gray, muted blue, dusty green, subtle charcoal, and delicate antique-gold accents.
+>
+> Behind the structure, create a simplified atmospheric sky made entirely from thick textured brushstrokes in soft powder blue, ivory, pale gray, and warm white. Keep the background understated, elegant, and painterly so the architectural form remains dominant.
+>
+> Add subtle environmental details at the bottom — a few bicycles, elegant vintage street lamps, plants, steps, pavement, tiny distant figures, or other small location-specific details — but keep them secondary, miniature, and painterly.
+>
+> The artwork should sit like a physical painted panel mounted on a warm off-white handmade paper background. Give the painted panel an irregular, naturally torn and rough painted edge, with subtle dimensional shadows around it, suggesting that a thick original artwork has been physically placed onto textured archival paper.
+>
+> At the bottom of the artwork, incorporate the name of the landmark in beautiful refined italic typography:
+>
+> “[STRUCTURE / LANDMARK]”
+>
+> Use sophisticated high-contrast editorial serif lettering, elegant flowing italics, slightly vintage European book-cover styling, subtle antique-gold or muted charcoal ink, perfectly centered and carefully integrated into the artwork. The typography should feel printed/painted onto the textured surface rather than digitally overlaid. Keep the lettering delicate, tasteful, and legible without competing with the architecture.
+>
+> If appropriate, add a smaller understated italic subtitle beneath it:
+>
+> “[CITY, COUNTRY]”
+>
+> Use generous spacing, refined typography, and a museum-quality art-print composition.
+>
+> Lighting should be soft and natural, emphasizing the raised impasto texture and creating tiny shadows between layers of paint. Elegant European art-book aesthetic, museum-quality architectural painting, sophisticated vintage travel-art feeling, tactile handmade surface, restrained luxury color palette, painterly realism, highly detailed, atmospheric, timeless, no photorealistic appearance.
+>
+> Vertical composition, centered architecture, generous off-white negative space around the artwork, premium editorial art print, collectible gallery poster, 8k detail.
+>
+> --ar 4:5 --style raw
+
+- 适用模型：GPT Image 2 / 2.5（尾部 `--ar 4:5 --style raw` 是 Midjourney 语法，原案例来自 X，两个平台都能用）。
+- 用法：把 `[STRUCTURE / LANDMARK]`、`[CITY, COUNTRY]` 换成目标地标即可；关键句是 `extremely thick palette-knife impasto`（定厚涂质感）和 `irregular, naturally torn and rough painted edge`（定「裱在纸上」的实体感），删掉任一句就退化成普通写实画。
+- 来源：freestylefly/awesome-gpt-image-2 案例 545，原作者 @Naiknelofar788（X）。
+- 收录：2026-11-27
