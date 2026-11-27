@@ -66,13 +66,14 @@
 - 来源：http://m.baoshan.sh-tyd.com/xxynews/202611/239_article67393.shtml
 - 收录：2026-11-26
 
-### xiaohongshu-mcp（xpzouying） — 17,345 ★
+### xiaohongshu-mcp（xpzouying） — 17,352 ★
 小红书 MCP server：13 个工具覆盖发布图文 / 视频、取笔记与互动数据，另有浏览器插件版 x-mcp 免部署。
 
 - 亮点：国内平台里少见的「能真的发出去」的 MCP，OpenClaw / Claude Code 都能接；插件版直接在 Chrome / Edge 本地跑，绕开服务器 IP 风控。
 - 注意：平台反爬与账号风控仍在，批量操作前先用小号验证。
 - 链接：https://github.com/xpzouying/xiaohongshu-mcp
 - 收录：2026-11-27
+- 更新：2026-11-27
 
 ### 掘金《在AGI时代到来前，把我的 mcp，skill，prompt 分享给你们》
 按「Skill 管能力底座 / Prompt 管表达 / MCP 管连接」三层组织的实操合集，13 个常用工具，含小红书封面 prompt 与「文生图提示词架构师」完整角色设定。
