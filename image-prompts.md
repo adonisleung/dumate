@@ -1,30 +1,31 @@
 # 生图 Prompt：库与模板
 
 > 图像生成提示词库（Nano Banana Pro / GPT Image / Midjourney / Flux / Seedream 等）与可直接复用的模板。
-> 维护：每天 06:30 / 18:30 增量追加；Star 为采集当日数值（2026-11-27）。
+> 维护：每天 06:30 / 18:30 增量追加；Star 为采集当日数值（2026-11-28）。
 
 ## 提示词库
 
-### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,881 ★
+### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,885 ★
 目前最大的 Nano Banana Pro 提示词库，1 万+ 条、16 种语言、带预览图，当日有提交。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
 - 收录：2026-11-26
-- 更新：2026-11-27
+- 更新：2026-11-28
 
-### YouMind-OpenLab/awesome-gpt-image-2 — 10,339 ★
+### YouMind-OpenLab/awesome-gpt-image-2 — 10,341 ★
 2000+ 条 GPT Image 2 提示词，每日更新，带预览与多语言版本。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-gpt-image-2
 - 收录：2026-11-26
-- 更新：2026-11-27
+- 更新：2026-11-28
 
-### ZeroLu/awesome-nanobanana-pro — 10,422 ★
+### ZeroLu/awesome-nanobanana-pro — 10,423 ★
 Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创意实验」等章节组织，每条附上原文 prompt 与出处。
 
 - 亮点：模板都是可直接套的完整句式，不是效果图堆砌；同一作者另有 Seedance 视频提示词库，图文一条线。
 - 链接：https://github.com/ZeroLu/awesome-nanobanana-pro
 - 收录：2026-11-26
+- 更新：2026-11-28
 
 ### TanShilongMario/PromptFill — 1,956 ★
 给 AI 绘图用的可视化「填空」提示词工作台：把长 prompt 拆成槽位，构建、管理、迭代。
@@ -83,6 +84,20 @@ Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20
 - 链接：https://github.com/ai-boost/awesome-image-video-prompts
 - 收录：2026-11-27
 - 更新：2026-11-27
+
+### ZeroLu/awesome-gpt-image — 2,307 ★
+GPT Image 2 / 2.5 的案例库，素材主要来自 X 上的头部创作者，按摄影写实、游戏、UI 与社媒、排版海报等分类，每条都附原文 prompt 与作者链接。
+
+- 亮点：多数案例同时给出 Nano Banana 2 与 GPT-Image 的对照成图，选模型、定参数时有据可依；README 顶部带 Last updated 时间戳，更新节奏一眼可见；本文件新增的模板 8 就出自这里。
+- 链接：https://github.com/ZeroLu/awesome-gpt-image
+- 收录：2026-11-28
+
+### YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill — 1,921 ★
+把 1 万+ 条 Nano Banana Pro 提示词做成 agent 技能：按用途检索、内容改写、附样例图。
+
+- 亮点：不用先想关键词，描述想要的画面它就从句库里挑候选；支持 Claude Code 与 OpenClaw，装完即能在对话里找 prompt、改写再出图；与同作者的提示词库仓库配套，库更新它跟着更新。
+- 链接：https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill
+- 收录：2026-11-28
 
 ## 可复用模板
 
@@ -176,3 +191,27 @@ Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20
 - 用法：把 `[STRUCTURE / LANDMARK]`、`[CITY, COUNTRY]` 换成目标地标即可；关键句是 `extremely thick palette-knife impasto`（定厚涂质感）和 `irregular, naturally torn and rough painted edge`（定「裱在纸上」的实体感），删掉任一句就退化成普通写实画。
 - 来源：freestylefly/awesome-gpt-image-2 案例 545，原作者 @Naiknelofar788（X）。
 - 收录：2026-11-27
+
+### 模板 8：博物馆图录式中式拆解信息图（GPT Image 2 / Nano Banana 2，竖版长图）
+
+> Please automatically generate a "museum catalog-style Chinese disassembly infographic" based on the [Subject].
+>
+> The entire image is required to combine a realistic main visual, structural disassembly, Chinese annotations, material descriptions, pattern meanings, color meanings, and core feature summaries. You need to automatically determine the most appropriate main subject, clothing system, artifact structure, era style, key components, material craftsmanship, color scheme, and layout structure based on the [Subject], and the user does not need to provide any other information.
+>
+> The overall style should be: national museum exhibition boards, historical clothing catalogs, and cultural/museum thematic infographics, rather than ordinary posters, ancient-style portraits, e-commerce detail pages, or anime illustrations. The background uses paper textures such as off-white, silk white, and light tea color, making the overall look premium, restrained, professional, and collectible.
+>
+> The layout is fixed as:
+> - Top: Chinese main title + subtitle + introduction
+> - Left: Structural disassembly area, with Chinese lead lines annotating key components, accompanied by close-up details
+> - Upper right: Material / craftsmanship / texture area, displaying real texture samples with descriptions
+> - Middle right: Pattern / color / meaning area, displaying the main color palette, pattern samples, and cultural explanations
+> - Bottom: Dressing order / composition flowchart + core feature summary
+>
+> If the subject is suitable for character display, use a full-body standing posture of a real person as the central subject; if it is more suitable for artifacts or single structures, change it to a central subject disassembly diagram, but the overall form remains a complete Chinese infographic. All text must be in Simplified Chinese, clear, neat, and readable, without garbled characters, typos, English, or pinyin. The focus is on highlighting real structures, material differences, cultural explanations, and a catalog atmosphere.
+>
+> Avoid: poster feel, studio portrait feel, e-commerce feel, anime feel, cosplay feel, random annotations, incorrect structures, blurry text, fake materials, excessive decoration.
+
+- 适用模型：GPT Image 2 / 2.5、Nano Banana 2（原案例两个模型都跑了对照图）。
+- 用法：只填 `[Subject]`（汉服、青铜器、瓷器、古建构件、产品结构都行），版式与风格已写死，适合知识类长图、博物馆与文旅内容、电商详情页拆解；`All text must be in Simplified Chinese` 和 `Avoid: ... garbled characters` 是中文不糊的关键约束，删掉就退化成普通插画。
+- 来源：ZeroLu/awesome-gpt-image「Typography & Poster Design」章节，原作者 @MrLarus（X，2026 年 11 月）。
+- 收录：2026-11-28
