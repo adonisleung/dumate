@@ -5,7 +5,7 @@
 
 ## 提示词库
 
-### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,879 ★
+### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,881 ★
 目前最大的 Nano Banana Pro 提示词库，1 万+ 条、16 种语言、带预览图，当日有提交。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
@@ -26,14 +26,15 @@ Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创�
 - 链接：https://github.com/ZeroLu/awesome-nanobanana-pro
 - 收录：2026-11-26
 
-### TanShilongMario/PromptFill — 1,957 ★
+### TanShilongMario/PromptFill — 1,956 ★
 给 AI 绘图用的可视化「填空」提示词工作台：把长 prompt 拆成槽位，构建、管理、迭代。
 
 - 亮点：中文界面，适合把一次性灵感沉淀成可复用结构；支持 GPT / Midjourney / Nano Banana。
 - 链接：https://github.com/TanShilongMario/PromptFill
 - 收录：2026-11-26
+- 更新：2026-11-27
 
-### VigoZhao/AI-Visual-Prompt-Cookbook — 908 ★
+### VigoZhao/AI-Visual-Prompt-Cookbook — 913 ★
 把提示词做成 JSON 风格包，抄一份 style 即可保持整组图统一调性。
 
 - 适用：批量出系列图、电商套图。
@@ -67,19 +68,21 @@ GPT-4V 与 DALL·E 3 多模态提示词合集，偏能力演示与用法参考�
 - 链接：https://github.com/junxiaopang/all-image-prompts
 - 收录：2026-11-26
 
-### freestylefly/awesome-gpt-image-2 — 36,163 ★
+### freestylefly/awesome-gpt-image-2 — 36,187 ★
 Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20 多套工业级模板，每个案例附完整提示词与生成记录。
 
 - 亮点：完整 prompt 可一键复制，还有 2.5 同提示词对比专区（可拖动分割看差异）；另附 Claude Code skill 与插件市场入口，prompt 能被 agent 直接调用。
 - 链接：https://github.com/freestylefly/awesome-gpt-image-2
 - 收录：2026-11-27
+- 更新：2026-11-27
 
-### ai-boost/awesome-image-video-prompts — 3,533 ★
+### ai-boost/awesome-image-video-prompts — 3,540 ★
 主流图像 / 视频模型的 copy-ready 提示词合集，每条都配真实生成结果。
 
 - 亮点：同一创意跨模型横向对照，适合选模型、定参数；11-24 仍有更新。
 - 链接：https://github.com/ai-boost/awesome-image-video-prompts
 - 收录：2026-11-27
+- 更新：2026-11-27
 
 ## 可复用模板
 
