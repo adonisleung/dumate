@@ -5,21 +5,21 @@
 
 ## 提示词库
 
-### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,885 ★
+### YouMind-OpenLab/awesome-nano-banana-pro-prompts — 13,887 ★
 目前最大的 Nano Banana Pro 提示词库，1 万+ 条、16 种语言、带预览图，当日有提交。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
 - 收录：2026-11-26
 - 更新：2026-11-28
 
-### YouMind-OpenLab/awesome-gpt-image-2 — 10,341 ★
+### YouMind-OpenLab/awesome-gpt-image-2 — 10,342 ★
 2000+ 条 GPT Image 2 提示词，每日更新，带预览与多语言版本。
 
 - 链接：https://github.com/YouMind-OpenLab/awesome-gpt-image-2
 - 收录：2026-11-26
 - 更新：2026-11-28
 
-### ZeroLu/awesome-nanobanana-pro — 10,423 ★
+### ZeroLu/awesome-nanobanana-pro — 10,422 ★
 Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创意实验」等章节组织，每条附上原文 prompt 与出处。
 
 - 亮点：模板都是可直接套的完整句式，不是效果图堆砌；同一作者另有 Seedance 视频提示词库，图文一条线。
@@ -35,7 +35,7 @@ Nano Banana Pro 精选提示词与成图案例集，按「写实与美学 / 创�
 - 收录：2026-11-26
 - 更新：2026-11-28
 
-### VigoZhao/AI-Visual-Prompt-Cookbook — 916 ★
+### VigoZhao/AI-Visual-Prompt-Cookbook — 918 ★
 把提示词做成 JSON 风格包，抄一份 style 即可保持整组图统一调性。
 
 - 适用：批量出系列图、电商套图。
@@ -70,7 +70,7 @@ GPT-4V 与 DALL·E 3 多模态提示词合集，偏能力演示与用法参考�
 - 链接：https://github.com/junxiaopang/all-image-prompts
 - 收录：2026-11-26
 
-### freestylefly/awesome-gpt-image-2 — 36,203 ★
+### freestylefly/awesome-gpt-image-2 — 36,234 ★
 Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20 多套工业级模板，每个案例附完整提示词与生成记录。
 
 - 亮点：完整 prompt 可一键复制，还有 2.5 同提示词对比专区（可拖动分割看差异）；另附 Claude Code skill 与插件市场入口，prompt 能被 agent 直接调用。
@@ -78,7 +78,7 @@ Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20
 - 收录：2026-11-27
 - 更新：2026-11-28
 
-### ai-boost/awesome-image-video-prompts — 3,541 ★
+### ai-boost/awesome-image-video-prompts — 3,544 ★
 主流图像 / 视频模型的 copy-ready 提示词合集，每条都配真实生成结果。
 
 - 亮点：同一创意跨模型横向对照，适合选模型、定参数；11-24 仍有更新。
@@ -86,18 +86,26 @@ Prompt as Code：GPT Image 2 / 2.5 的逆向工程案例库，546 个案例、20
 - 收录：2026-11-27
 - 更新：2026-11-28
 
-### ZeroLu/awesome-gpt-image — 2,307 ★
+### ZeroLu/awesome-gpt-image — 2,310 ★
 GPT Image 2 / 2.5 的案例库，素材主要来自 X 上的头部创作者，按摄影写实、游戏、UI 与社媒、排版海报等分类，每条都附原文 prompt 与作者链接。
 
 - 亮点：多数案例同时给出 Nano Banana 2 与 GPT-Image 的对照成图，选模型、定参数时有据可依；README 顶部带 Last updated 时间戳，更新节奏一眼可见；本文件新增的模板 8 就出自这里。
 - 链接：https://github.com/ZeroLu/awesome-gpt-image
 - 收录：2026-11-28
 
-### YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill — 1,921 ★
+### YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill — 1,922 ★
 把 1 万+ 条 Nano Banana Pro 提示词做成 agent 技能：按用途检索、内容改写、附样例图。
 
 - 亮点：不用先想关键词，描述想要的画面它就从句库里挑候选；支持 Claude Code 与 OpenClaw，装完即能在对话里找 prompt、改写再出图；与同作者的提示词库仓库配套，库更新它跟着更新。
 - 链接：https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill
+- 收录：2026-11-28
+
+### YouMind-OpenLab/ai-image-prompts-skill — 1,415 ★
+跨模型的提示词检索 skill：1 万+ 条精选 prompt，按 11 个用途分类（社媒图 6,382 条、产品营销 3,709 条、头像 1,064 条…），一句话描述就返回最多 3 条候选。
+
+- 亮点：prompt 与模型解耦，同一句可套 Nano Banana Pro / 2、Seedream 5.0、GPT Image 1.5、Midjourney、FLUX；另有「内容配图」模式，贴文章正文让它按主题挑风格再改写；Claude Code 用 `npx skills i YouMind-OpenLab/ai-image-prompts-skill` 装，OpenClaw 走 clawhub，每日同步两次。
+- 注意：与同组织的 nano-banana-pro-prompts-recommend-skill 共用句库但面向全部模型，两个装一个即可。
+- 链接：https://github.com/YouMind-OpenLab/ai-image-prompts-skill
 - 收录：2026-11-28
 
 ## 可复用模板
@@ -215,4 +223,40 @@ GPT Image 2 / 2.5 的案例库，素材主要来自 X 上的头部创作者，�
 - 适用模型：GPT Image 2 / 2.5、Nano Banana 2（原案例两个模型都跑了对照图）。
 - 用法：只填 `[Subject]`（汉服、青铜器、瓷器、古建构件、产品结构都行），版式与风格已写死，适合知识类长图、博物馆与文旅内容、电商详情页拆解；`All text must be in Simplified Chinese` 和 `Avoid: ... garbled characters` 是中文不糊的关键约束，删掉就退化成普通插画。
 - 来源：ZeroLu/awesome-gpt-image「Typography & Poster Design」章节，原作者 @MrLarus（X，2026 年 11 月）。
+- 收录：2026-11-28
+
+### 模板 9：新中式茶饮新品海报（GPT Image 2 / 2.5，3:4 竖版）
+
+> Design a 3:4 vertical poster for a new Chinese trendy tea launch. Use a New Chinese visual style that feels light-luxury and restrained. The palette should be dark green, off-white, and gold, with rice-paper texture, elegant negative space, landscape accents, and modern layout design.
+>
+> Main subject:
+> a visually appealing cold-brew tea with tea leaves, citrus, ice cubes, and touches of gold foil.
+>
+> The poster must accurately display the following exact Chinese copy:
+> "山川茶事"
+> "山柚观音"
+> "冷泡系列"
+> "新品上市"
+> "一口清醒，半城入夏"
+> "限定尝鲜价"
+> "中杯 16 元"
+> "大杯 19 元"
+> "门店活动"
+> "第二杯半价"
+> "加 3 元升级轻乳版"
+> "每日前 100 名赠限定杯套"
+> "推荐风味"
+> "观音茶底 / 西柚果香 / 轻乳云顶 / 冰感回甘"
+> "活动时间 4月20日 至 5月10日"
+> "扫码点单"
+> "SHANCHUAN TEA"
+>
+> Fine print:
+> "图片仅供参考，请以门店实际售卖为准"
+>
+> Maintain a clear promotional hierarchy while keeping the overall feeling sophisticated rather than cheap or overly e-commerce-like. Pay special attention to small text, numbers, prices, info modules, and Chinese typography aesthetics.
+
+- 适用模型：GPT Image 2 / 2.5（原案例出自该模型；同结构也可套 Nano Banana Pro，但中文字块越多越要挑文字稳的模型）。
+- 用法：把品牌名、产品名、价格档位与赠品清单换成自己的，其余版式不动；关键是把所有要出现的字逐条列成 `exact Chinese copy`，再补 `Maintain a clear promotional hierarchy ... rather than cheap or overly e-commerce-like` 压住「直播带货风」；最后一行 `Fine print` 不要删，法务提示常被模型漏掉。
+- 来源：ZeroLu/awesome-gpt-image「Typography & Poster Design」章节，条目 Chinese Tea Drink Product Launch Poster。
 - 收录：2026-11-28
